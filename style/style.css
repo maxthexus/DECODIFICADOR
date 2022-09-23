@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+html{
+    background-color: #E5E5E5;
+}
+
+.logo{
+    margin-left: 40px;
+    padding: 24px;
+}
+
+main{
+margin: 40px;
+display: flex;
+justify-content: space-around;
+
+}
+
+#esquerda{
+    padding: 24px;
+    
+    height: 950px;
+    padding: 24px;
+}
+
+
+#direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 600px;
+    width:400px;
+    
+}
+
+
+p#letminusculas{
+    font-size: 12px;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+
+
+.vazio{
+    display: block;
+}
+
+.copiar{
+    display:none;
+    width: 188px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #000000;
+    margin: 10px;
+}
+
+.copiar:hover{
+    background: #c4c4c4;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.input-texto{
+    display: block;
+    height: 200px;
+    width: 687px;
+    background-color:#E5E5E5 ;
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 32px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input-texto::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #0A3871; 
+    text-align: start;
+    opacity: 1; /* Firefox */
+  }
+
+
+.mensagem{
+    margin: 20px;
+    display: none;
+    height: 500px;
+    width: 360px;
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 32px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+} 
+  
+div#buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 24px 24px 0px;
+    gap: 8px;
+}
+
+input#cript{
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #ffffff;
+}
+input#decript{
+    width: 328px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #000000;
+}
+
+input#decript:hover{
+    background: #c4c4c4;
+    cursor: pointer;
+}
+
+input#cript:hover{
+    background: #06274e;
+    cursor: pointer;
+}
+
